@@ -4,7 +4,7 @@ export const Card2 = ({url, title}) => {
     return (
 <div>
 
-    <div className="card mx-auto my-2" style={{width: '18rem'}}>
+    <div className="card d-flex p-2" style={{width: '18rem'}}>
   <img src={url} className="card-img-top" alt={title}/>
   <div className="card-body">
     <h5 className="card-title">Card title: {title}</h5>
